@@ -6,7 +6,7 @@
 
 /**
  * main - Entry point
- * Return : ALWAYS 0
+ * Return: ALWAYS 0
  *
  */
 
