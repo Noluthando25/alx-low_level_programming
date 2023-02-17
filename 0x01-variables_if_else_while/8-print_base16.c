@@ -10,8 +10,11 @@ int main(void)
 {
 	int num;
 	{
-		for (num = 16; num < 9; num++)
-			putchar((num % 9) + '0');
+		for (num = 16; num++)
+
+		scanf("%x", &num);
+
+		putchar("%x %d\n", num, num);
 
 		putchar('\n');
 	}
