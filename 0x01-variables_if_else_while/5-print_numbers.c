@@ -15,6 +15,9 @@ int main(void)
 		if (n != 59)
 		putchar(n);
 	}
+
+	putchar('\n');
+
 	return (0);
 }
 
