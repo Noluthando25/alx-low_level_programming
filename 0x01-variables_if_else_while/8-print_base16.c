@@ -10,8 +10,8 @@ int main(void)
 {
 	int num;
 	{
-		for (num = 16; num < 0; num++)
-			putchar((num % 10) + '0');
+		for (num = 16; num < 9; num++)
+			putchar((num % 16) + '0');
 
 		putchar('\n');
 	}
