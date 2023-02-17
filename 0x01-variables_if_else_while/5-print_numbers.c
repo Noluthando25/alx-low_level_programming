@@ -13,7 +13,7 @@ int main(void)
 	for (n = 48; n < 58; n++)
 	{
 		if (n != 59)
-		putchar(\n);
+		putchar('\n');
 	}
 
 	putchar('\n');
