@@ -1,9 +1,12 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+
+#include <stdlib.h>
+
+#include <time.h>
+
 /**
- * main - entry point prints if number is positive negative or zero
- *
+ * main - Entry point
+ * description - assigns random number to variable
  * Return : always 0 (success)
  *
  */
