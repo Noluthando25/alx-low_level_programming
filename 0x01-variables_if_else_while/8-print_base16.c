@@ -17,7 +17,6 @@ int main(void)
 	for (letter = 'a'; letter <= 'f'; letter++)
 		putchar(letter);
 
-	putchar('\n');
-	
+	putchar('\n');	
 	return (0);
 }
