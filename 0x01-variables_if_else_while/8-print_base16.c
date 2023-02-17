@@ -9,14 +9,15 @@
 int main(void)
 {
 	int num;
-	{
-		for (num = 16; num++)
+	char letter;
 
-		scanf("%x", &num);
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
 
-		putchar("%x %d\n", num, num);
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
 
-		putchar('\n');
+	putchar('\n');
 	}
 	return (0);
 }
