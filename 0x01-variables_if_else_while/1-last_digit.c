@@ -5,8 +5,8 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- * Return : 0 (success)
+ * main - Entry point
+ * Return : ALWAYS 0
  *
  */
 int main(void)
@@ -15,17 +15,19 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (last digit of n > 5)
+	a = n % 10;
+
+	if (a > 5)
 	{
-	printf("last digit of %d and is greater than 5\n", n);
+	printf("last digit of %d is %d and is greater than 5\n", n, a);
 	}
-	else if	(last digit of n == 0)
+	else if	(a == 0)
 	{
-		printf("last digit of %d and is 0\n", n);
+		printf("last digit of %d is %d and is 0\n", n, a);
 	}
-	else(last digit of n < 6 and !0)
+	else
 	{
-		printf("last digit of %d and is less than 6 and not 0\n", n);
+		printf("last digit of %d is %d and is less than 6 and not 0\n", n, a);
 	}
 
 	return (0);
