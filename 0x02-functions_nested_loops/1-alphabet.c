@@ -6,8 +6,9 @@
  * Return: 0
  * description - print alphabets in ascending order
  */
-print_alphabet();
+int main(void)
 {
+	void print_alphabet(void);
 	char alphabet;
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
