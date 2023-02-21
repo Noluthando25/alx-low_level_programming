@@ -6,7 +6,7 @@
  * print_alphabet - print all in lowecase
  * Return: 0
  */
-int main(void)
+int _putchar(void)
 {
 	_putchar('_');
 	_putchar('p');
