@@ -7,8 +7,11 @@
  * description - print alphabets in ascending order
  */
 void print_alphabet(void);
+
 int main(void)
 {
+	print_alphabet();
+
 	char alphabet;
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
