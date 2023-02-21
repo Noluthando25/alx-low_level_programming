@@ -6,7 +6,7 @@
  * Return: 0
  * description - print alphabets in ascending order
  */
-void print_alphabet(void)
+void print_alphabet(void);
 {
 	char letter;
 
@@ -15,5 +15,5 @@ void print_alphabet(void)
 
 	putchar('\n');
 
-	return (0);
+	return ();
 }
