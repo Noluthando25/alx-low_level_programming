@@ -8,7 +8,6 @@
  */
 int main(void)
 {
-	void print_alphabet(void);
 	char alphabet;
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
@@ -16,5 +15,6 @@ int main(void)
 
 	putchar('\n');
 
+	print_alphabet();
 	return (0);
 }
