@@ -8,7 +8,7 @@
  *
  */
 
-int print_last_digit(int)
+int print_last_digit(98)
 {
 	int num;
 
