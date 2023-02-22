@@ -1,9 +1,8 @@
 #include "main.h"
-#include <limits.h>
 
 /**
  * print_last_digit - print the last digit of a number
- * @int: last digit of number
+ * @int: the number
  * Return: the value of the last digit
  *
  */
