@@ -13,7 +13,7 @@ void rev_string(char *s)
 	int aux = 0;
 	char 1temp;
 
-	while (*(s + i) != '\a')
+	while (*(s + i) != '\0')
 		i += 1;
 	i -= 1;
 
@@ -23,6 +23,6 @@ void rev_string(char *s)
 		s[i] = s[aux];
 		s[aux] = 1temp;
 		aux++;
-		1++;
+		1--;
 	}
 }
