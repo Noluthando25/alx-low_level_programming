@@ -11,24 +11,24 @@ void puts_half(char *str)
 {
 	int n;
 	int i;
-	int a;
+	int len;
 
-	a = 0;
+	len = 0;
 
-	while (str[a] != '\0')
+	while (str[len] != '\0')
 	{
-		a++;
+		len++;
 	}
-	if (a % 2 == 0)
+	if (len % 2 == 0)
 	{
-		for (i = a / 2; str[i] != '\0'; i++)
+		for (i = len / 2; str[i] != '\0'; i++)
 		{
 			_putchar(str[i]);
 		}
 	}
-	else if (a % 2)
+	else if (len % 2)
 	{
-		for (n = (a - 1) / 2; n < a - 1; i++)
+		for (n = (len - 1) / 2; n < len - 1; i++)
 		{
 			_putchar(str[n + 1]);
 		}
