@@ -3,7 +3,7 @@
 /**
  *  _strspn -  gets the length of a prefix substring
  *  @s: string to be searched
- *  @accept: to be measured
+ *  @accept: prefix to be measured
  *  Return: number of bytes in the initial segment
  */
 
