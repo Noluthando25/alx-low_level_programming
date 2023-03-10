@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c main.c ar -rc libmy.a main.o
+ar -rsc libmy.a 
