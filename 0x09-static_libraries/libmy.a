@@ -1,2 +1,2 @@
 #!/bin/bash
-ar rc libmy.a main.h *.o
+ar -rc libmy.a main.o
