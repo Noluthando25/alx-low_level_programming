@@ -1,10 +1,9 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdloi.h>
 #include <ctype.h>
 #include <string.h>
 
 int _islower(int c)
 {
-return (c >= 'a' && <= 'z');
+return (c >= 'a' && c <= 'z');
 }
