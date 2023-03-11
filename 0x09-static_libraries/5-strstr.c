@@ -3,7 +3,7 @@
 #include <ctype.h>
 #include <string.h>
 
-char _str(char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
-	return _str(haystack, needle);
+	return _strstr(haystack, needle);
 }
