@@ -5,5 +5,5 @@
 
 int _strpn(char *s, char *accept)
 {
-	return _strpn(s, accept);
+        return _strpn(s, accept);
 }
