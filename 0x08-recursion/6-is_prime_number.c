@@ -15,6 +15,13 @@ int is_prime_number(int n)
 	return (actual_prime(n, n - 1));
 }
 
+/**
+ * actual_prime - calutes if an integer is prime recursively
+ * @n: number to evaluate
+ * @a: iterator
+ * Return: 1 if the input integer is a prime number, otherwise return 0
+ */
+
 int actual_prime(int n, int a)
 {
 	if (a == 1)
