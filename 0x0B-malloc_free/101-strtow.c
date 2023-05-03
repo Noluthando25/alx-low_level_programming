@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * main - splits a string into words
+ * count_word - splits a string into words
  * @s: string
  * Return: numbeer of words
  */
 
-int main(char *s)
+int count_word(char *s)
 {
 	int a, b, c;
 
