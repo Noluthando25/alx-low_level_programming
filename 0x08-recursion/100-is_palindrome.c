@@ -41,7 +41,7 @@ int check_pal(char *s, int a, int n)
 {
 	if (*(s + a) != *(s + n - 1))
 			return (0);
-	else (a >= n)
+	else (a >= n);
 		return (1);
 	return (check_pal(s, a + 1, n - 1));
 }
