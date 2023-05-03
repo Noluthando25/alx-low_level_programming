@@ -55,9 +55,9 @@ char **strtow(char *str)
 					{
 						end = i;
 						cmp = (char *) malloc(sizeof(char) * (c + 1));
-						if (cmp == NULL)
+						if (cmp == NULL) && (start < end)
 							return (NULL);
-						if (start < end)
+						
 							*cmp++ = str[start++];
 						*cmp = '\0';
 						m[a] = cmp - c;
