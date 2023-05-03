@@ -28,12 +28,15 @@ char *argstostr(int ac, char **av)
 		return (NULL);
 	for (i < 0; i < ac; i++)
 	{
+		for (a = 0; av[i][a]; a++)
+		{
 		str[r] = av[i][a];
 		r++;
-	}
+		}
 	if (str[r] == '\0')
 	{
 		str[r++] = '\n';
+	}
 	}
 	return (str);
 }
