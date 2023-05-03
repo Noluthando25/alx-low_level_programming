@@ -55,14 +55,14 @@ char **strtow(char *str)
 					{
 						end = i;
 						cmp = (char *) malloc(sizeof(char) * (c + 1));
-						if (cmp == NULL) && (start < end)
-							return (NULL);
-						
-							*cmp++ = str[start++];
-						*cmp = '\0';
-						m[a] = cmp - c;
-						a++;
-						c = 0;
+					if (cmp == NULL)
+						return (NULL);
+					while (star < end)
+						*cmp++ = str[start++];
+					*cmp = '\0';
+					m[a] = cmp - c;
+					a++;
+					c = 0;
 					}
 				}
 				else if (c++ == 0)
