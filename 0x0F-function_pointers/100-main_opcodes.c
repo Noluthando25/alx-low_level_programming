@@ -2,15 +2,15 @@
 #include <stdlib.h>
 
 /**
- * main - print own pocodes
+ * main - prints its own opcodes
  * @argc: number of arguments
  * @argv: array of arguments
- * Return: 0
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(int argc, char *argv[])
 {
-	int bytes, n;
+	int a, i;
 	char *arr;
 
 	if (argc != 2)
@@ -18,21 +18,25 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(1);
 	}
-	bytes = atoi(argv[1]);
-	if (bytes < 0)
+
+	a = atoi(argv[1]);
+
+	if (a < 0)
 	{
 		printf("Error\n");
 		exit(2);
 	}
+
 	arr = (char *)main;
-	for (n = 0; n < bytes; n++)
+
+	for (i = 0; i < a; i++)
 	{
-		if (n == bytes - 1)
+		if (i == a - 1)
 		{
-			printf("%.2hhx\n", arr[n]);
+			printf("%02hhx\n", arr[i]);
 			break;
 		}
-		printf("%.2hhx", arr[n]);
+		printf("%02hhx ", arr[i]);
 	}
 	return (0);
 }
