@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "main.h"
+#include <string.h>
 
 /**
  * _strdup - a pointer to a new string which is a duplicate of the string
