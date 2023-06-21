@@ -10,7 +10,7 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	printf("My name is: ");
+	if (name == NULL || f == NULL)
+		return;
 	f(name);
-	printf("\n");
 }
