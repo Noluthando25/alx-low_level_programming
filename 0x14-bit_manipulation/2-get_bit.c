@@ -11,10 +11,23 @@
 
 int get_bit(unsigned long int n, unsigned int index)
 {
-	if (index >= sizeof(n) * 8
+	if (index >= (sizeof(unsigned long int) * 8))
 			return (-1);
 
-			int bit = (n >> index) & 1;
+	unsigned long int mask = 1UL << index;
 
-			return (bit);
+	else
+		return ((n & mask) != 0);
+}
+
+int main(void)
+{
+	int n;
+
+	n = get_bit(1024, 10);
+	printf("%d\n", n);
+	n = get_bit(98, 1);
+	printf("%d\n", n);
+
+	return (0);
 }
