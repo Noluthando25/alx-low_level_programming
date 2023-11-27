@@ -12,7 +12,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 {
 	char *buf;
 	ssize_t fd;
-	ssize_t a;
+	ssize_t w;
 	ssize_t t;
 
 	fd = open(filename, O_RDONLY);
@@ -24,5 +24,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	free(buf);
 	close(fd);
-	return (a);
+	return (w);
 }
